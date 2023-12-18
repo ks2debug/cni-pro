@@ -1,0 +1,3 @@
+@function getFontSize($fontSize1: 10, $fontSize2: 15) {
+  @return ($fontSize1 + $fontSize2) * 1px;
+}

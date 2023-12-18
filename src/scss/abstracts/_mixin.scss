@@ -1,0 +1,19 @@
+@mixin btn-reset-login($clr) {
+  color: $clr;
+  border: none;
+  font-weight: bold;
+}
+
+@mixin img-wdth-objfit-bradious($wdth: 50px, $obj-fit: contain, $b-radious: 50%) {
+  width: $wdth;
+  object-fit: contain;
+  border-radius: $b-radious;
+}
+
+@mixin img-profile($wdth: 150px, $b-radious: 50%, $b-clr: black) {
+  width: $wdth;
+  border-radius: $b-radious;
+  background-color: $b-clr;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}

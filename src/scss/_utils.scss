@@ -1,0 +1,30 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.uti-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -4px;
+  padding-top: 4px;
+}
+
+hr {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.uti-center-of-screen-current-position {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive styles */

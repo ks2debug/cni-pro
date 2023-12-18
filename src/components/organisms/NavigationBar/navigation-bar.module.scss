@@ -1,0 +1,53 @@
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.container_navbar {
+  margin-bottom: 60px;
+  z-index: 2000;
+}
+
+.div_left {
+  ul {
+    // background-color: orange;
+    li {
+      // background-color: blue;
+      button {
+        // background-color: yellow;
+        &:hover {
+          background-color: lightgray;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.img_profile {
+  width: 40px;
+  aspect-ratio: 1/1;
+}
+
+/* Responsive styles */
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+  .container_navbar {
+    margin-bottom: 90px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .container_navbar {
+    margin-bottom: 75px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .container_navbar {
+    margin-bottom: 60px;
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+}

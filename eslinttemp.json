@@ -1,0 +1,7 @@
+{
+    "rules": {
+        "no-unused-vars": "off",
+        "camelcase": "off",
+        "no-console": "off"
+    }
+}

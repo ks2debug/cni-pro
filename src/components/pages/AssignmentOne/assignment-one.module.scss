@@ -1,0 +1,22 @@
+@use '../../../scss/abstracts/colors' as colors;
+@use '../../../scss/abstracts/mixin' as mixin;
+@use '../../../scss//abstracts/functions' as functions;
+@use '../../../scss/abstracts/variables' as variables;
+
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* Responsive styles */
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(lg) {
+}
+
+@include media-breakpoint-up(xl) {
+}
+
+@include media-breakpoint-up(xll) {
+}

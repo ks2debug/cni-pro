@@ -1,0 +1,131 @@
+{
+  "name": "javascript-pro-one",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/modifiers": "^7.0.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@fvilers/disable-react-devtools": "^1.3.0",
+    "@hookform/resolvers": "^3.1.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "antd": "^5.12.2",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
+    "classnames": "^2.3.2",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.9",
+    "env-cmd": "^10.1.0",
+    "immer": "^10.0.2",
+    "lodash": "^4.17.21",
+    "match-sorter": "^6.3.1",
+    "nanoid": "^5.0.1",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap-typeahead": "^6.2.3",
+    "react-confirm-alert": "^3.0.6",
+    "react-data-table-component": "^7.5.4",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-error-boundary": "^4.0.10",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.45.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-idle-timer": "^5.7.2",
+    "react-lazyload": "^3.2.0",
+    "react-nestable": "^3.0.2",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.4",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.3",
+    "react-tooltip": "^5.21.1",
+    "react-top-loading-bar": "^2.3.1",
+    "react-use": "^17.4.0",
+    "redux-persist": "^6.0.0",
+    "redux-persist-transform-encrypt": "5.0.0",
+    "redux-saga": "^1.2.3",
+    "redux-saga-callback": "^1.1.0",
+    "reselect": "^4.1.8",
+    "sass": "^1.64.2",
+    "use-immer": "^0.9.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scriptsCommented": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "scripts": {
+    "start-dev": "env-cmd -e development react-scripts start",
+    "build-dev": "env-cmd -e development react-scripts build",
+    "start-test": "env-cmd -e test react-scripts start",
+    "build-test": "env-cmd -e test react-scripts build",
+    "start-stag": "env-cmd -e staging react-scripts start",
+    "build-stag": "env-cmd -e staging react-scripts build",
+    "start-prod": "env-cmd -e production react-scripts start",
+    "build-prod": "env-cmd -e production react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns node_modules/jest/bin/jest.js/",
+    "jest-cc": "jest --clearCache",
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "report": "webpack --profile --json > stats.json; webpack-bundle-analyzer bundle/output/path/stats.json",
+    "prettify-write": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint-fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ],
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3",
+    "react-test-renderer": "^18.2.0",
+    "source-map-explorer": "^2.5.3",
+    "webpack-bundle-analyzer": "^4.9.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

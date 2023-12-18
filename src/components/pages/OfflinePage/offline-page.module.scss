@@ -1,0 +1,37 @@
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.logo {
+  width: 20%;
+}
+
+.img_offline {
+  width: 20%;
+}
+
+/* Responsive styles */
+@include media-breakpoint-up(sm) {
+  .logo {
+    width: 15%;
+  }
+  .img_offline {
+    width: 15%;
+  }
+}
+
+@include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(lg) {
+  .logo {
+    width: 10%;
+  }
+  .img_offline {
+    width: 10%;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+}
+
+@include media-breakpoint-up(xxl) {
+}
